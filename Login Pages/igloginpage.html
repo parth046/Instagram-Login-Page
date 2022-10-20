@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Login Page</title>
+  <style>
+    body {
+      height: 100vh;
+      background-color: #fafafa;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .container {
+      box-shadow: 0.3px 0.3px 0.5px rgb(153, 151, 151);
+      background-color: #ffffff;
+      border-radius: 3px;
+      border: 2px solid rgb(212, 211, 211);
+      width: 24%;
+      height: 400px;
+      margin-top: 40px;
+    }
+
+    .container2 {
+      box-shadow: 0.3px 0.3px 0.5px rgb(153, 151, 151);
+      background-color: #ffffff;
+      border: 2px solid rgb(212, 211, 211);
+      width: 24%;
+      height: 70px;
+      margin-top: 15px;
+    }
+
+    .container .logo img {
+      margin-top: 25px;
+      width: 55%;
+    }
+
+    .container .form {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      margin: 25px auto;
+    }
+
+    .container .form input {
+      border: 1.2px solid rgb(171, 169, 169);
+      background-color: #fafafa;
+      border-radius: 4.5px;
+      width: 74%;
+      margin: 3.5px auto;
+      padding: 9px 10px;
+      color: #8e8e8e;
+    }
+
+    .container .btn {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: white;
+      font-weight: 550;
+      background-color: #0095f6;
+      border-radius: 4.5px;
+      width: 74%;
+      margin: auto;
+      margin-top: -17px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    #highlighted {
+      font-weight: 500;
+      color: #0095f6;
+    }
+
+    .message {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      margin-top: 27px;
+      font-weight: 400;
+      font-size: 14.5px;
+      text-align: center;
+    }
+
+    #highlighted {
+      cursor: pointer;
+    }
+
+    .container3 {
+      width: 25%;
+      height: 100px;
+      margin-top: 15px;
+    }
+
+    .container3 h4 {
+      margin-top: 8px;
+      font-weight: 350;
+      font-size: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+
+    .container3 #img1 {
+      cursor: pointer;
+      padding: 1px 3px;
+      margin-top: -3px;
+      margin-left: -160px;
+      width: 40%;
+    }
+
+    .container3 #img2 {
+      cursor: pointer;
+      padding: 1px 3px;
+      margin-top: -3px;
+      margin-right: -160px;
+      width: 40%;
+    }
+
+    .other {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      width: 100%;
+      height: 100px;
+      margin: 0px auto;
+      margin-top: 10px;
+      box-sizing: border-box;
+      font-weight: 600;
+      color: #8e8e8e;
+      font-size: 14px;
+    }
+
+    .other #first {
+      display: inline-block;
+      width: 32%;
+    }
+
+    .other #second {
+      display: inline-block;
+      width: 13%;
+      box-sizing: border-box;
+      margin: auto;
+    }
+
+    .other #third {
+      display: inline-block;
+      width: 32%;
+    }
+
+    .loginwithfb img {
+      width: 4.5%;
+      background-color: #0095f6;
+    }
+
+    .container .loginwithfb {
+      cursor: pointer;
+      height: 15px;
+      margin-top: -40px;
+      font-weight: 500;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: #385085;
+    }
+
+    .loginwithfb a {
+      text-decoration: none;
+    }
+
+    .forgotten {
+      color: black;
+
+      margin: 27px auto;
+    }
+
+    .forgotten a {
+      text-decoration: none;
+    }
+
+    .forgotten a span {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: black;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="container">
+      <div class="logo">
+        <a href=""><img src="https://pngimage.net/wp-content/uploads/2018/06/instagram-font-png-1.png" alt="" /></a>
+      </div>
+      <div class="form">
+        <form action="">
+          <input type="" placeholder="Phone number,username or email address" />
+          <br />
+          <input type="text" placeholder="Password" />
+          <br />
+        </form>
+      </div>
+      <div class="btn">Log In</div>
+      <div class="other">
+        <div id="first">
+          <hr />
+        </div>
+        <div id="second">
+          <p>OR</p>
+        </div>
+        <div id="third">
+          <hr />
+        </div>
+      </div>
+      <div class="loginwithfb">
+        <img src="https://www.freepnglogos.com/uploads/facebook-icons/facebook-icon-simple-iconset-0.png" alt="" />
+        <a href="https://www.facebook.com" target="_blank"><span>&nbspLog in with Facebook</span></a>
+      </div>
+      <div class="forgotten">
+        <a href="https://www.instagram.com/accounts/password/reset/">
+          <span>Forgotten your password?</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="message">
+        <span id="normal">Don't have an account?</span>
+        <span id="highlighted">Sign up</span>
+      </div>
+    </div>
+    <div class="container3">
+      <h4>Get the app.</h4>
+      <img
+        src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"
+        alt="" id="img1" />
+      <img
+        src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"
+        alt="" id="img2" />
+    </div>
+  </div>
+</body>
+
+</html>
